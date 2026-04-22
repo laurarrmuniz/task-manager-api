@@ -1,6 +1,8 @@
 package com.laura.taskmanager.Model;
 
 import jakarta.persistence.*;
+import jakarta.persistence.EnumType;
+import jakarta.persistence.Enumerated;
 
 @Entity
 public class Task {
@@ -11,11 +13,12 @@ public class Task {
 
     private String title;
     private String description;
-    private String status;
+    @Enumerated(EnumType.STRING)
+    private Status status;
 
     public Task() {}
 
-    public Task(String title, String description, String status) {
+    public Task(String title, String description, Status status) {
         this.title = title;
         this.description = description;
         this.status = status;
@@ -23,11 +26,11 @@ public class Task {
 
     // getters e setters
 
-    public String getStatus() {
+    public Status getStatus() {
         return status;
     }
 
-    public void setStatus(String status) {
+    public void setStatus(Status status) {
         this.status = status;
     }
 

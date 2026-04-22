@@ -28,6 +28,7 @@ public class TaskService {
     }
 
     public Task findById(Long id) {
-        return repository.findById(id).orElse(null);
+        return repository.findById(id)
+                .orElseThrow(() -> new RuntimeException("Task not found"));
     }
 }
