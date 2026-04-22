@@ -1,3 +1,8 @@
+![Java](https://img.shields.io/badge/Java-17+-blue)
+![Spring Boot](https://img.shields.io/badge/SpringBoot-3.x-brightgreen)
+![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)
+![License](https://img.shields.io/badge/license-MIT-blue)
+
 # 🚀 Task Manager API
 
 API REST desenvolvida em Java com Spring Boot para gerenciamento de tarefas, com operações CRUD e aplicação de boas práticas de desenvolvimento backend.
