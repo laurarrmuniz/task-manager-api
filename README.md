@@ -120,6 +120,9 @@ Permite visualizar e testar todos os endpoints diretamente pelo navegador.
 
 ## 📸 Exemplos de uso
 
+### Swagger UI
+![Swagger](docs/images/swagger.png)
+
 ### Criando uma tarefa
 ![POST](docs/images/post-tasks.png)
 
