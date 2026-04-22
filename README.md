@@ -108,6 +108,16 @@ DELETE /tasks/{id}
 
 ---
 
+## 📸 Exemplos de uso
+
+### Criando uma tarefa
+![POST](docs/images/post-task.png)
+
+### Listando tarefas
+![GET](docs/images/get-tasks.png)
+
+---
+
 ## 🗄️ Banco de dados
 
 O projeto utiliza o banco em memória H2 para facilitar testes e execução local.
