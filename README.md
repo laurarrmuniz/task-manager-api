@@ -108,6 +108,16 @@ DELETE /tasks/{id}
 
 ---
 
+## 📚 Documentação da API
+
+A documentação interativa da API pode ser acessada via Swagger:
+
+http://localhost:8080/swagger-ui.html
+
+Permite visualizar e testar todos os endpoints diretamente pelo navegador.
+
+---
+
 ## 📸 Exemplos de uso
 
 ### Criando uma tarefa
