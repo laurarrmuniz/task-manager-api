@@ -111,7 +111,7 @@ DELETE /tasks/{id}
 ## 📸 Exemplos de uso
 
 ### Criando uma tarefa
-![POST](docs/images/post-task.png)
+![POST](docs/images/post-tasks.png)
 
 ### Listando tarefas
 ![GET](docs/images/get-tasks.png)
