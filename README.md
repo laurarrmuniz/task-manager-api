@@ -108,6 +108,26 @@ DELETE /tasks/{id}
 
 ---
 
+## 📚 Documentação da API
+
+A documentação interativa da API pode ser acessada via Swagger:
+
+http://localhost:8080/swagger-ui.html
+
+Permite visualizar e testar todos os endpoints diretamente pelo navegador.
+
+---
+
+## 📸 Exemplos de uso
+
+### Criando uma tarefa
+![POST](docs/images/post-tasks.png)
+
+### Listando tarefas
+![GET](docs/images/get-tasks.png)
+
+---
+
 ## 🗄️ Banco de dados
 
 O projeto utiliza o banco em memória H2 para facilitar testes e execução local.
